@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el menú de servicios */
+  #menu-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .servicio {
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  
+  .servicio img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+  }
+  
+  .servicio h2 {
+    margin-top: 10px;
+  }
+  
+  .servicio:hover img {
+    border-color: #007bff;
+  }
+  
+  /* Estilos para el contenedor del logo y título del servicio seleccionado */
+  #logo-container {
+    text-align: center;
+    display: none;
+    margin-top: 50px;
+  }
+  
+  #logo {
+    max-width: 200px;
+  }
+  
+  #servicio-titulo {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para el contenedor de información de la cuenta */
+  #info-container {
+    text-align: center;
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #info-container p {
+    margin: 10px 0;
+  }
+  
+  #generar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #generar:hover {
+    background-color: #0056b3;
+  }
+  
